@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik:wght@300&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Tahoma;
+  font-size: 18px;
+  color: rebeccapurple;
+  background-color: mediumpurple;
+  line-height: 1.5;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+}
+.hero img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.hero h1 {
+  font-family: "Indie Flower", cursive;
+  position: absolute;
+  top: 10vh;
+  right: 20vw;
+  color: white;
+  font-size: 80px;
+  margin: 0 auto;
+}
+.text {
+  margin: 5%;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.text p{
+    margin: 10px 0; 
+}
+
+.link{
+    font-size: 0.8em;
+    color: black;
+}
+.item a{
+    color: inherit;
+    text-decoration: none;
+}
